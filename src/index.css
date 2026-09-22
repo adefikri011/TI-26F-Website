@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=EB+Garamond:ital,wght@0,400;0,600;1,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-parchment: #F1E5C8;
+  --color-maroon: #A10000;
+  --color-gold: #D4AF37;
+  --color-inkbrown: #3B2C1A;
+  --font-display: "Cinzel Decorative", serif;
+  --font-body: "EB Garamond", serif;
+}
+
+body {
+  @apply bg-parchment text-inkbrown font-body;
+}
