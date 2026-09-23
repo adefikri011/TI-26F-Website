@@ -3,7 +3,7 @@ export function ConfirmDialog({ open, title, message, onConfirm, onCancel, busy 
 
   return (
     <div className="fixed inset-0 z-50 bg-black/60 flex items-end sm:items-center justify-center p-0 sm:p-4">
-      <div className="w-full sm:max-w-sm bg-parchment border-t-4 sm:border-4 border-gold rounded-t-xl sm:rounded-md p-5 shadow-2xl">
+      <div className="w-full sm:max-w-sm bg-parchment border-t border-gold/40 sm:border-2 sm:border-gold/60 rounded-t-xl sm:rounded-md p-5 shadow-2xl">
         <h3 className="font-display text-maroon text-lg mb-2">{title}</h3>
         <p className="font-body text-inkbrown/80 text-sm mb-5">{message}</p>
         <div className="flex gap-3">

@@ -30,7 +30,7 @@ export function AdminLogin() {
 
   return (
     <div className="min-h-screen bg-inkbrown flex items-center justify-center px-4">
-      <div className="w-full max-w-md bg-parchment border-4 border-gold rounded-md p-8 shadow-2xl">
+      <div className="w-full max-w-md bg-parchment border-2 border-gold/60 rounded-md p-8 shadow-2xl">
         <div className="flex flex-col items-center mb-8">
           <WaxSeal />
           <h1 className="font-display text-3xl text-maroon mt-4">Admin Portal</h1>

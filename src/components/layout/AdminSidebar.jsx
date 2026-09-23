@@ -49,10 +49,10 @@ export function AdminSidebar({ open, onClose }) {
               end={end}
               onClick={onClose}
               className={({ isActive }) =>
-                `flex items-center gap-3 px-3 py-2.5 rounded font-body text-sm transition-colors border-l-2 ${
+                `flex items-center gap-3 px-3 py-2.5 rounded font-body text-sm transition-colors ${
                   isActive
-                    ? 'bg-gold/10 border-gold text-gold'
-                    : 'border-transparent text-parchment/80 hover:bg-parchment/5 hover:text-gold'
+                    ? 'bg-gold/10 text-gold'
+                    : 'text-parchment/80 hover:bg-parchment/5 hover:text-gold'
                 }`
               }
             >

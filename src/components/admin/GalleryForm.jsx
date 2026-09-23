@@ -45,7 +45,7 @@ export function GalleryForm({ onCancel, onSave }) {
 
   return (
     <div className="fixed inset-0 z-50 bg-black/60 flex items-end sm:items-center justify-center">
-      <div className="w-full sm:max-w-lg bg-parchment border-t-4 sm:border-4 border-gold rounded-t-2xl sm:rounded-md max-h-[92vh] overflow-y-auto shadow-2xl">
+      <div className="w-full sm:max-w-lg bg-parchment border-t border-gold/40 sm:border-2 sm:border-gold/60 rounded-t-2xl sm:rounded-md max-h-[92vh] overflow-y-auto shadow-2xl">
         <div className="sticky top-0 bg-parchment flex items-center justify-between px-5 py-4 border-b border-inkbrown/15">
           <h3 className="font-display text-maroon text-lg">Upload Foto</h3>
           <button
